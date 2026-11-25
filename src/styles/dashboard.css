@@ -1,0 +1,177 @@
+.dashboard-screen {
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+.dashboard-greeting {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  margin-bottom: 6px;
+  word-break: break-word;
+}
+
+.dashboard-profile-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  color: #333333;
+  font-weight: 500;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.role-pasajero {
+  background-color: #e2e3e5;
+  color: #383d41;
+}
+
+.role-conductor {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.role-admin {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.virtual-card {
+  background: linear-gradient(135deg, #003366, #00a8cc);
+  color: #ffffff;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 16px rgba(0, 51, 102, 0.22);
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.virtual-card .card-chip {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.virtual-card .card-number {
+  font-size: 1.05rem;
+  letter-spacing: 2px;
+  margin-bottom: 14px;
+  font-family: monospace;
+  opacity: 0.95;
+}
+
+.virtual-card .card-label {
+  font-size: 0.72rem;
+  opacity: 0.85;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+.virtual-card .card-balance {
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+
+.btn-consultar-rutas {
+  width: 100%;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 12px;
+  background-color: var(--accent-cyan);
+  color: #ffffff;
+  font-size: 0.98rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0, 168, 204, 0.28);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.btn-consultar-rutas:hover {
+  background-color: #008eaa;
+  transform: translateY(-1px);
+}
+
+.rutas-proximas-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.ruta-eta-card {
+  background-color: var(--card-bg);
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.2s ease, transform 0.15s ease;
+}
+
+.ruta-eta-card:hover {
+  border-color: var(--accent-cyan);
+  transform: translateY(-1px);
+}
+
+.ruta-eta-nombre {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2c2c2e;
+  margin-bottom: 6px;
+}
+
+.ruta-eta-tiempo {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--success-green);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn-recargar-pasaje {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: var(--accent-cyan);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.98rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 168, 204, 0.25);
+  transition: background-color 0.2s ease;
+}
+
+.btn-recargar-pasaje:hover {
+  background-color: #008eaa;
+}
+
+.dashboard-role-card {
+  background-color: var(--card-bg);
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 16px;
+  text-align: left;
+}
